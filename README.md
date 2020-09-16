@@ -5,9 +5,8 @@ NSABlocklist© project original created under the ISC license 2015 - 2019 by [CH
 </p>
 
 [![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)](https://matrix.to/#/#cknews:matrix.org)
-![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/CKsTechNews?style=social)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 
 Description
 ------------
@@ -136,6 +135,7 @@ NSA Resources and public program(s)
 Project History
 ------------
 
+- [x] 07.05.2020 IPfilter & VPN suggestion updated
 - [x] 01.07.2019 Added some Anti-DPI programs.
 - [x] 27.11.2018 NordVPN audit leaked.
 - [x] 04.06.2018 Add Anti-NSA project list.
@@ -179,6 +179,7 @@ Snowden documents compilations
 ## Anti-NSA programs and networks
 
 * [Hackers build a new Tor client designed to beat the NSA](https://www.dailydot.com/layer8/tor-astoria-timing-attack-client/)
+* [Contract for the Web](https://contractfortheweb.org/)
 
 
 
@@ -186,9 +187,8 @@ Known compromised ISP Providers
 ------------
 
 * [AT&T helped to spy on an array of Internet traffic | The New York Times](http://www.nytimes.com/2015/08/16/us/politics/att-helped-nsa-spy-on-an-array-of-internet-traffic.html) & via [ProPublica](https://www.propublica.org/article/nsa-spying-relies-on-atts-extreme-willingness-to-help)
-* Telecom US / T-Mobile 
-* Vodafone
-* Deutsche Telekom
+* Telecom US / T-Mobile / Deutsche Telekom
+* Vodafone (DNS Hijacking, DPI)
 * E-Plus / O2
 * Alphabet (Goolgle) 'Project Fi alias T-Com' [Apr. 2015, needs a special Fi SIM for Nexus 6 XT1103 only (atm)]
 * Digital Ocean, Inc.s
@@ -205,6 +205,13 @@ Known compromised ISP Providers
 * [Türk Telekom](https://www.btk.gov.tr/File/?path=ROOT%2F1%2FDocuments%2FPages%2FMarket_Data%2F2017_Q1_Eng.pdf)
 * Belgacom
 * [Tor has a community based good/bad ISP list](https://trac.torproject.org/projects/tor/wiki/doc/GoodBadISPs)
+* Wind Mobile (DNS Hijacking)
+* Wind (DNS Hijacking)
+* Ote (DNS Hijacking)
+* Hol (DNS Hijacking)
+* Forthnet (DNS Hijacking)
+* Cyta (DNS Hijacking)
+* Cosmote (DNS Hijacking)
 
 
 Needs more evidence
@@ -395,14 +402,14 @@ Based on the following [review](https://docs.google.com/spreadsheets/d/e/2PACX-1
 * ibVPN (almost no servers)
 * Trust Zone
 * CyberGhost
+* Betternet VPN
 
 
 **VPN Recommendation:**
 
 Worth a read: [VPN Guide: Legality, Jurisdictions & Internet Censorship](https://vpn-review.com/are-vpns-legal/)
 
-* [ProtonVPN](https://protonvpn.com/)
-* [Private Internet Access](https://www.privateinternetaccess.com) ([raid proof](https://torrentfreak.com/vpn-providers-no-logging-claims-tested-in-fbi-case-160312/)) + [here](https://torrentfreak.com/private-internet-access-no-logging-claims-proven-true-again-in-court-180606/)
+* [ProtonVPN](https://protonvpn.com/), [bypass censorship measures](https://protonvpn.com/blog/smart-protocol-android)
 * [ExpressVPN](https://www.expressvpn.com) ([raid proof](https://www.bestvpn.com/privacy-news/expressvpn-cannot-hand-over-logs/))
 * [Perfect Privacy](https://surfshark.com/)
 
@@ -455,6 +462,14 @@ Government mass surveillance projects & laws
 [Government Must Have Reasonable Suspicion of Digital Contraband Before Searching Electronic Devices at the U.S. Border](https://www.aclu.org/press-releases/federal-court-rules-suspicionless-searches-travelers-phones-and-laptops)
 
 
+
+Known compromised Hardware with Malware or Backdoors
+------------
+
+* [UMX U683CL](https://blog.malwarebytes.com/android/2020/01/united-states-government-funded-phones-come-pre-installed-with-unremovable-malware/) (smartphone) [_[Assurance Wireless](https://shop.assurancewireless.com/Unimax-U683CL.html)_]
+
+
+
 Discontinued surveillance programs projects
 ------------
 
@@ -463,7 +478,6 @@ Discontinued surveillance programs projects
 * ThinThread
 * Trailblazer Project
 * Customer Proprietary Network Information / CPNI (metadata) - can be deactivated on Android 5.1+ and e.g. Wifi networks
-
 
 
 
@@ -481,14 +495,12 @@ Australia
 * Status: unclear, needs confirmation + evidence
 
 
-
 China
 ------------
 
 * Golden Shield Project
 * Monitoring Bureau -> Status: unclear, needs confirmation + evidence
 * Public Information Network Security -> Status: unclear, needs confirmation + evidence
-
 
 
 
@@ -606,4 +618,18 @@ Spying programs
 * HACIENDA
 
 
-**A special thanks goes to everyone who are fighting for www. security! Give spying no chance!**
+## Hardware Recommendations
+
+- Phone: [Librem 5](https://puri.sm/products/librem-5/)
+- Laptop: [Librem 13](https://puri.sm/products/librem-13/) with [Pureboot](https://puri.sm/posts/pureboot-the-high-security-boot-process/) and [Librem Key](https://puri.sm/products/librem-key/) OR [NitroKey](https://www.nitrokey.com/)
+- BitCoin/Monero conversation: [XMR.to](https://xmr.to/nojs/)
+
+
+
+## Software Recommendations and defense steps Checklist
+
+- [A Defensive Computing Checklist by Michael Horowitz](https://defensivecomputingchecklist.com/)
+
+
+## THANK YOU !
+**A special thanks goes to everyone who fights for internet security and privacy!**
