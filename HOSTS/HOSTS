@@ -6,9 +6,9 @@
 # Version: 0.0.19
 # Homepage: https://raw.githubusercontent.com/CHEF-KOCH/NSABlocklist/master/HOSTS
 #
-127.0.0.1 localhost							# [IPv4 only]
-127.0.0.1 localhost.localdomain				# Local Domain
-127.0.0.1 255.255.255.255 broadcasthost 	# Unix/Mac serv.
+# 127.0.0.1 localhost							# [IPv4 only]
+# 127.0.0.1 localhost.localdomain				# Local Domain
+# 127.0.0.1 255.255.255.255 broadcasthost 	# Unix/Mac serv.
 #::1 localhost							  	# [IPv6 only]
 #127.0.0.1 local 						  	# Unix only
 #
